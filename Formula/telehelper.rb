@@ -7,7 +7,7 @@ class Telehelper < Formula
 
   def install
     Dir.chdir("brew-scripts/telehelper") do
-      bin.install "installer.sh" => "telehelper-install"
+      bin.install "installer.sh" => "th-install"
       pkgshare.install "telehelper-functions.sh"
     end
   end
@@ -16,14 +16,12 @@ class Telehelper < Formula
     <<~EOS
       To complete installation, run:
 
-        telehelper-install
+        th-install
 
       This will:
         - Install Teleport (if missing)
         - Configure your shell (e.g., .bashrc or .zshrc)
 
-      The helper functions are located at:
-        #{opt_pkgshare}/functions.sh
     EOS
   end
 end
