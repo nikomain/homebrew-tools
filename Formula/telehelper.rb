@@ -1,8 +1,8 @@
 class Telehelper < Formula
   desc ""
   homepage "https://github.com/nikomain/brew-scripts"
-  url "https://github.com/nikomain/brew-scripts/archive/refs/tags/telehelper-v1.0.14.tar.gz"
-  sha256 "0a9dccf063b806d843fd6caba7a5ebb9545344ba8afe0d4952f98cbcbe63abef"
+  url "https://github.com/nikomain/brew-scripts/archive/refs/tags/telehelper-v1.0.15.tar.gz"
+  sha256 "6e3912220795c3cddbf07e5be648d557fbe218b210fd3143f45bd5bbddd73aac"
   license ""
 
   def install
