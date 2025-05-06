@@ -1,4 +1,4 @@
-class Telehelper < Formula
+class Th < Formula
   desc ""
   homepage "https://github.com/nikomain/brew-scripts"
   url "https://github.com/nikomain/brew-scripts/archive/refs/tags/telehelper-v1.0.17.tar.gz"
@@ -6,9 +6,9 @@ class Telehelper < Formula
   license ""
 
   def install
-    Dir.chdir("brew-scripts/telehelper") do
+    Dir.chdir("brew-scripts/th") do
       bin.install "installer.sh" => "th-install"
-      pkgshare.install "telehelper-functions.sh"
+      pkgshare.install "th-functions.sh"
     end
   end
 
